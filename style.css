@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.intro-box {
+    background-color: #e6e6fa; /* Màu tím nhạt */
+    border-radius: 15px; /* Bo góc */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Chiều rộng của bảng */
+}
+
+.intro-box h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.intro-box p {
+    margin: 10px 0;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.language-icon {
+    width: 40px; /* Kích thước icon ngôn ngữ */
+    height: 40px;
+    margin: 0 5px;
+}
+
+.tiktok-icon {
+    width: 50px; /* Kích thước icon TikTok */
+    height: 50px;
+    margin-top: 10px;
+}
